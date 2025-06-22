@@ -244,3 +244,20 @@ body {
     margin: 0 auto 1rem;
   }
 }
+.pentagon {
+  width: 0;
+  border-style: solid;
+  margin: 0 auto 1rem;
+
+  /* Pentagon shape using clip-path */
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
+}
